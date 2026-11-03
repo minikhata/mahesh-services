@@ -10,7 +10,6 @@ It's a single static page with no build step:
 | `img/` | Project photos (stills from the walkthrough video) |
 | `project-walkthrough.mp4` | Featured project video |
 | `downloads/` | A4 brochure PDF and WhatsApp status image |
-| `.github/workflows/pages.yml` | Publishes the site to GitHub Pages on every push to `main` |
 
 ## Editing
 
@@ -20,7 +19,7 @@ It's a single static page with no build step:
 
 ## Publishing
 
-In the repo's **Settings → Pages**, set **Source** to **GitHub Actions** (one time). After that, every push to `main` deploys to:
+GitHub Pages publishes the `main` branch (Settings → Pages → Deploy from a branch → `main` / root). Every push to `main` updates the live site at:
 
 https://minikhata.github.io/mahesh-services/
 
